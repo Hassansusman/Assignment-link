@@ -1,0 +1,25 @@
+import React from "react";
+import { IonApp, IonHeader, IonToolbar, IonTitle, IonContent, IonFooter } from "@ionic/react";
+import '@ionic/react/css/core.css';
+
+const App: React.FC = () => (
+    <IonApp>
+
+        <IonHeader>
+            <IonToolbar>
+                <IonTitle>Welcome Hassan Saleh Usman</IonTitle>
+            </IonToolbar>
+        </IonHeader>
+
+        <IonContent style={{ "--background":"orange", "text-align":"center"}}>
+            <h1>Mobile Bootcamp</h1>
+        </IonContent>
+
+        <IonFooter>Day1 Assignment</IonFooter>
+
+    </IonApp>
+    
+);
+
+export default App;
+
